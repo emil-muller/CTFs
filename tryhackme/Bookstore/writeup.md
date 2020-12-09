@@ -274,7 +274,7 @@ $ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQhlkPFGyv/Vujc0Kk2iWmOg8RbEDDjfF4
 ```
 We can now login with ssh
 ```
-➜  Chill_Hack git:(main) ✗ ssh sid@10.10.25.162                                               
+➜  /tmp ssh sid@10.10.25.162                                               
 The authenticity of host '10.10.25.162 (10.10.25.162)' can't be established.
 ECDSA key fingerprint is SHA256:VMHtdCF8Q2YyC5DyxF1h7vpUfdhe/jGEguQyqn/6mRk.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
