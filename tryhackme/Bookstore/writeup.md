@@ -317,7 +317,7 @@ try-harder        100%[============>]   8,29K  --.-KB/s    in 0s
 
 2020-12-09 18:06:39 (87,4 MB/s) - ‘try-harder’ saved [8488/8488]
 ```
-Decompiling its' main function we get:
+Disasembling its' main function we get:
 ```
 ➜  /tmp gdb -batch -ex 'file try-harder' -ex 'set disassembly-flavor att' -ex 'disassemble main'
 Dump of assembler code for function main:
