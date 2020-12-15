@@ -108,6 +108,7 @@ This is a general checklist for privilege escalation on Linux.
 - [ ] Backups?
 - [ ] Known files that contains passwords: Use Linpeas and LaZagne
 - [ ] Generic search
+- [ ] Any sensitive info in `bash_history`?
 
 # Writable Files
 - [ ] Modify python library to execute arbitrary commands?
