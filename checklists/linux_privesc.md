@@ -1,5 +1,5 @@
-# Linux Priviledge Escalation Checklist
-This is a general checklist for priviledge escalation on Linux.
+# Linux Privilege Escalation Checklist
+This is a general checklist for privilege escalation on Linux.
 
 # Tools
 [linPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/blob/master/linPEAS/linpeas.sh) - Fast enumeration of common privilege escalation vectors
