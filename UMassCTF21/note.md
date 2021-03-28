@@ -56,9 +56,15 @@ Now we should be able to find the flag in the dumped memory:
 ➜  /tmp strings 2696.dmp | grep "UMASS"
 ```
 Aaaaand we got nothing...
-What if we try with little endian strings instead?
+After a bit of research i found [this article](https://www.andreafortuna.org/2018/03/02/volatility-tips-extract-text-typed-in-a-notepad-window-from-a-windows-memory-dump/).
+It turns out that `notepad.exe` stores text in 16-bit little-endian, so adding the flags `-e l` to strings should work:
 ```
 ➜  /tmp strings -e l 2696.dmp | grep "UMASS"                                                   
 UMASS{$3CUR3_$70Rag3}
 ```
-Jackpot
+Jackpot!
+This even works on the original memory dump:
+```
+➜  /tmp strings -e l image.mem | grep "UMASS"
+UMASS{$3CUR3_$70Rag3}
+```
