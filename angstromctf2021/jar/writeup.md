@@ -45,4 +45,4 @@ for i in env_vars:
     if "actf{" in i:
         print(i)
 ```
-And we find the flag: actf{you_got_yourself_out_of_a_pickle}
+And we find the flag: `actf{you_got_yourself_out_of_a_pickle}`

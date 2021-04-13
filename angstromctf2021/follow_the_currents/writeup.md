@@ -30,8 +30,5 @@ with open("enc","rb") as f:
 
 The solution script tries every key and tries to decode the decrypted data as uft-8. If the decoding succeeds it prints the decrypted values as utf-8.
 
-Luckly only one key decrypts the data into uft-8 and we get the flag.
-
-```
-actf{low_entropy_keystream}
-```
+Luckly only one key decrypts the data into uft-8 and we get the flag:
+`actf{low_entropy_keystream}`
