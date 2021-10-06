@@ -1,5 +1,5 @@
 # AngstromCTF2021 Sea of Quills
-Lokking at the sourcecode we notice the lines:
+Looking at the sourcecode we notice the lines:
 ```
 blacklist = ["-", "/", ";", "'", "\""]
 
