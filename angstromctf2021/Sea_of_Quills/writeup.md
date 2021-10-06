@@ -48,4 +48,4 @@ payload = {
 r = requests.post(url,params=payload)
 print(r.text)
 ```
-Running the solytion we find the flag: `actf{and_i_was_doing_fine_but_as_you_came_in_i_watch_my_regex_rewrite_f53d98be5199ab7ff81668df}`
+Running the solution we find the flag: `actf{and_i_was_doing_fine_but_as_you_came_in_i_watch_my_regex_rewrite_f53d98be5199ab7ff81668df}`
