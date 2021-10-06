@@ -3,7 +3,7 @@ Looking at the sourcecode we see that the application uses `gets`. We therefore 
 
 We see that `strcmp` checks the input for the string `password123`. We can mitigate this but injecting `password123` and then a null byte, because the `strcmp` will stop comparing.
 
-Disassembling the application we wee that:
+Disassembling the application we see that:
 ```
 # 327: int main (int argc, char **argv, char **envp);
 # ; var char *format @ rbp-0xe0
